@@ -43,8 +43,7 @@ class MyApp extends StatelessWidget {
           return MaterialPageRoute(
             builder: (context) {
               // Depending on the route settings, return the corresponding widget
-              return Login()
-              ;
+              return Login();
             },
           );
         },
